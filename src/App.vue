@@ -5,7 +5,9 @@ import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-  <div class="flex h-[100vh] w-full flex-col justify-start gap-0.5">
+  <div
+    class="flex h-[100vh] w-full flex-col justify-between gap-0.5 bg-slate-900"
+  >
     <Navbar name="@erfilho" />
     <Hero />
     <Footer />

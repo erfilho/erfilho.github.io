@@ -9,9 +9,9 @@ const count = ref(0)
 </script>
 
 <template>
-  <header class="flex h-12 w-full flex-row items-center justify-center p-1">
+  <header class="flex h-14 w-full flex-row items-center justify-center p-1">
     <div
-      class="flex h-full w-full flex-row justify-center gap-2 rounded-md bg-gray-200 px-2 shadow-md"
+      class="flex h-full w-full flex-row justify-center gap-2 rounded-md bg-slate-700 px-2 text-slate-100 shadow-md"
     >
       <div
         class="flex h-full w-full flex-row items-center justify-center gap-2 px-4 md:w-1/2 md:justify-start"
@@ -24,15 +24,24 @@ const count = ref(0)
       <div
         class="hidden h-full w-1/2 flex-row items-center justify-end gap-2 md:flex"
       >
-        <button class="flex cursor-pointer flex-row rounded-sm px-2 text-lg">
+        <RouterLink
+          to="/"
+          class="flex cursor-pointer flex-row rounded-sm px-2 text-lg"
+        >
+          Skills
+        </RouterLink>
+        <RouterLink
+          to="/projects"
+          class="flex cursor-pointer flex-row rounded-sm px-2 text-lg"
+        >
           Projects
-        </button>
-        <button class="flex cursor-pointer flex-row rounded-sm px-2 text-lg">
+        </RouterLink>
+        <RouterLink
+          to="/about"
+          class="flex cursor-pointer flex-row rounded-sm px-2 text-lg"
+        >
           About
-        </button>
-        <button class="flex cursor-pointer flex-row rounded-sm px-2 text-lg">
-          Contact
-        </button>
+        </RouterLink>
       </div>
     </div>
   </header>
