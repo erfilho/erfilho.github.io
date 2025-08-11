@@ -6,7 +6,7 @@
       class="flex h-2/5 w-full flex-col items-center justify-center rounded-md bg-slate-700 shadow-md md:w-1/2 lg:w-2/5 xl:w-2/6 2xl:w-1/5"
     >
       <img
-        class="h-3/4 w-3/4 rounded-full border-4 border-slate-600"
+        class="h-3/4 rounded-full border-4 border-slate-600"
         src="../assets/profile.png"
       />
     </div>
@@ -16,8 +16,8 @@
       <div
         class="flex h-1/5 w-full flex-col items-center justify-center rounded-md bg-slate-700 p-4 shadow-md"
       >
-        <p class="text-3xl font-semibold text-slate-100">Erineldo Filho</p>
-        <p class="text-2xl font-medium text-slate-400">Fullstack Developer</p>
+        <p class="text-xl md:text-3xl font-semibold text-slate-100">Erineldo Filho</p>
+        <p class="text-lg md:text-2xl font-medium text-slate-400">Fullstack Developer</p>
         <span class="text-slate-300 md:hidden">
           <RouterLink to="/"> Skills </RouterLink>
           <RouterLink to="/projects"> Projects </RouterLink>
