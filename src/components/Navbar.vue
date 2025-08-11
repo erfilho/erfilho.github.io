@@ -22,23 +22,23 @@ const count = ref(0)
       </div>
 
       <div
-        class="hidden h-full w-1/2 flex-row items-center justify-end gap-2 md:flex"
+        class="hidden text-slate-400 h-full w-1/2 flex-row items-center font-semibold justify-end gap-2 md:flex"
       >
         <RouterLink
           to="/"
-          class="flex cursor-pointer flex-row rounded-sm px-2 text-lg"
+          class="flex cursor-pointer flex-row rounded-sm px-2 text-xl"
         >
           Skills
         </RouterLink>
         <RouterLink
           to="/projects"
-          class="flex cursor-pointer flex-row rounded-sm px-2 text-lg"
+          class="flex cursor-pointer flex-row rounded-sm px-2 text-xl"
         >
           Projects
         </RouterLink>
         <RouterLink
           to="/about"
-          class="flex cursor-pointer flex-row rounded-sm px-2 text-lg"
+          class="flex cursor-pointer flex-row rounded-sm px-2 text-xl"
         >
           About
         </RouterLink>

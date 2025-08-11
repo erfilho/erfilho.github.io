@@ -21,4 +21,6 @@ const routes = [
 export const router = createRouter({
   history: createWebHistory(),
   routes,
+  linkActiveClass: "text-slate-300",
+  linkExactActiveClass: "text-slate-300"
 })
